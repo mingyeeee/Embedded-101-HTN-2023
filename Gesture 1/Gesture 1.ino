@@ -10,7 +10,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600); // Setup UART/Serial communication
 
-  pinMode(SENSOR1_TRIG_PIN, OUTPUT); f// trig pin sensor 1
+  pinMode(SENSOR1_TRIG_PIN, OUTPUT); // trig pin sensor 1
   pinMode(SENSOR1_ECHO_PIN, INPUT); // echo pin sensor 1
 
   pinMode(SENSOR2_TRIG_PIN, OUTPUT); // trig pin sensor 2
